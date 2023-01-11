@@ -1,0 +1,54 @@
+h5{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+#eval {
+    margin-top: 80px;
+}
+p{
+    text-align: center;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 213, 0);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0;
+}
+#grade-container {
+    display:flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.grade-box {
+    background-color: #fff;
+    height: 70px;
+    padding: 24px 15px 9px 15px;
+    width: 90px;
+    border-radius: 4px;
+    position:relative;
+    font-size: 30px;
+    text-align:center;
+}
+.grade-box > p {
+    position:absolute;
+    top: 0px;
+    left: 42px;
+    margin: 0px;
+    font-size: 12px;
+}
+#result-box {
+    background-color: #fff;
+    width: 500px;
+    height: 100px;
+    border-radius: 4px;
+    position:relative;
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}

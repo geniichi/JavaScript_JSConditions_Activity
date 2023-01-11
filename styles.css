@@ -1,0 +1,56 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 213, 0);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+h2 {
+    margin-top: 150px;
+}
+.div{
+    background-color: #fff;
+    width: 500px;
+    height: 70px;
+    padding-top: 20px;
+    padding: 15px;
+    font-size: 35px;
+    position: relative;
+    border-radius: 4px;
+}
+.div > p {
+    position: absolute;
+    top: 10px;
+    font-size: 16px;
+    margin: 0;
+}
+.output {
+    font-size:40px;
+
+}
+#result {
+    padding: 10px 20px 9px 20px;
+    overflow: scroll;
+    overflow-y:hidden;
+    white-space: nowrap;
+    font-size:32px;
+    text-align: center;
+}
+.number-container {
+    margin-top: 20px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}

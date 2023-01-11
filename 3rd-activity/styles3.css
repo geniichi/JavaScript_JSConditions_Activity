@@ -1,0 +1,73 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 213, 0);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 800px;
+}
+h2 {
+    margin-top: 50px;
+}
+.div{
+    background-color: #fff;
+    width: 500px;
+    height: 70px;
+    padding: 15px;
+    font-size: 35px;
+    position: relative;
+    border-radius: 4px;
+}
+.output-number-container {
+    background-color: #fff;
+    width: 210px;
+    height: 70px;
+    padding: 15px;
+    font-size: 35px;
+    position: relative;
+    border-radius: 4px;
+}
+#main-number-container {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 529px;
+}
+#main-output-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 420px;
+}
+div > p {
+    position: absolute;
+    top: 10px;
+    font-size: 16px;
+    margin: 0;
+}
+.output {
+    padding-top: 20px;
+
+}
+.number-container {
+    margin-top: 20px;
+    font-size:40px;
+    overflow-x: scroll;
+}
+
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
